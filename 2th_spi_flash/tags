@@ -1,0 +1,99 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BIT	tq2440.h	6;"	d
+CAMDIVN	start.S	/^#define CAMDIVN 0x4C000018$/;"	d
+CC	Makefile	/^CC:=$(CROSS_COMPILE)gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS:=-fno-builtin -nostdinc -nostdlib -g$/;"	m
+CLKDIVN	start.S	/^#define CLKDIVN	0x4C000014$/;"	d
+CLKDIVN	tq2440.h	44;"	d
+CLKDIV_VAL	start.S	/^#define CLKDIV_VAL ((DIVN_UPLL << 3) | (HDIVN << 1) | (PDIVN))$/;"	d
+CROSS_COMPILE	Makefile	/^CROSS_COMPILE:=arm-none-linux-gnueabi-$/;"	m
+DIVN_UPLL	start.S	/^#define DIVN_UPLL 1$/;"	d
+GPBCON	tq2440.h	22;"	d
+GPBDAT	tq2440.h	23;"	d
+GPBUP	tq2440.h	24;"	d
+GPECON	tq2440.h	26;"	d
+GPEDAT	tq2440.h	27;"	d
+GPEUP	tq2440.h	28;"	d
+GPFCON	tq2440.h	30;"	d
+GPFDAT	tq2440.h	31;"	d
+GPFUP	tq2440.h	32;"	d
+GPGCON	tq2440.h	34;"	d
+GPGDAT	tq2440.h	35;"	d
+GPGUP	tq2440.h	36;"	d
+GPHCON	tq2440.h	38;"	d
+GPHDAT	tq2440.h	39;"	d
+GPHUP	tq2440.h	40;"	d
+HDIVN	start.S	/^#define HDIVN 2$/;"	d
+LD	Makefile	/^LD:=$(CROSS_COMPILE)ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS:=-Tlink.lds -L\/opt\/arm-2014.05\/lib\/gcc\/arm-none-linux-gnueabi\/4.8.3$/;"	m
+LOCKTIME	tq2440.h	42;"	d
+MPLLCON	start.S	/^#define MPLLCON 0x4C000004$/;"	d
+MPLLCON	tq2440.h	43;"	d
+MPLLCON_VAL	start.S	/^#define MPLLCON_VAL ((M_MDIV << 12) | (M_PDIV << 4) | (M_SDIV))$/;"	d
+M_MDIV	start.S	/^#define M_MDIV  125$/;"	d
+M_PDIV	start.S	/^#define M_PDIV	1$/;"	d
+M_SDIV	start.S	/^#define M_SDIV	1$/;"	d
+OBJCOPY	Makefile	/^OBJCOPY:=$(CROSS_COMPILE)objcopy$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP:=$(CROSS_COMPILE)objdump$/;"	m
+PCLK	tq2440.h	46;"	d
+PDIVN	start.S	/^#define PDIVN 1$/;"	d
+RH	tq2440.h	4;"	d
+RXD0READY	uart.c	7;"	d	file:
+SPI_READ	spi_flash.c	62;"	d	file:
+SPI_WRITE	spi_flash.c	61;"	d	file:
+TARGET	Makefile	/^TARGET:=spi_flash.bin$/;"	m
+TXD0READY	uart.c	6;"	d	file:
+UART_BAUD_RATE	uart.c	3;"	d	file:
+UART_BRD	uart.c	4;"	d	file:
+UBRDIV0	tq2440.h	14;"	d
+UCON0	tq2440.h	10;"	d
+UFCON0	tq2440.h	11;"	d
+ULCON0	tq2440.h	9;"	d
+UMCON0	tq2440.h	12;"	d
+UPLLCON	start.S	/^#define UPLLCON 0x4C000008$/;"	d
+UPLLCON_VAL	start.S	/^#define UPLLCON_VAL ((U_M_MDIV << 12) | (U_M_PDIV << 4) | (U_M_SDIV))$/;"	d
+URXH0_B	tq2440.h	17;"	d
+URXH0_L	tq2440.h	19;"	d
+UTRSTAT0	tq2440.h	13;"	d
+UTXH0_B	tq2440.h	16;"	d
+UTXH0_L	tq2440.h	18;"	d
+U_M_MDIV	start.S	/^#define U_M_MDIV	56$/;"	d
+U_M_PDIV	start.S	/^#define U_M_PDIV	2$/;"	d
+U_M_SDIV	start.S	/^#define U_M_SDIV	1$/;"	d
+_LED_H	led.h	2;"	d
+_TQ2440_H	tq2440.h	2;"	d
+_UART_H	uart.h	2;"	d
+_data_abort	start.S	/^_data_abort:		.word data_abort$/;"	l
+_fiq	start.S	/^_fiq:			.word fiq$/;"	l
+_irq	start.S	/^_irq:			.word irq$/;"	l
+_not_used	start.S	/^_not_used:		.word not_used$/;"	l
+_prefetch_abort	start.S	/^_prefetch_abort:	.word prefetch_abort$/;"	l
+_software_interrupt	start.S	/^_software_interrupt:	.word software_interrupt$/;"	l
+_start	start.S	/^_start:$/;"	l
+_undefined_instruction	start.S	/^_undefined_instruction:	.word undefined_instruction$/;"	l
+data_abort	start.S	/^data_abort:$/;"	l
+fiq	start.S	/^fiq:$/;"	l
+getc	uart.c	/^unsigned char getc(void)$/;"	f
+irq	start.S	/^irq:$/;"	l
+led_off	led.h	6;"	d
+led_on	led.h	7;"	d
+led_shine	led.c	/^void led_shine(void)$/;"	f
+main	main.c	/^void main(void)$/;"	f
+not_used	start.S	/^not_used:$/;"	l
+prefetch_abort	start.S	/^prefetch_abort:$/;"	l
+putc	uart.c	/^void putc(int c)$/;"	f
+puthex	uart.c	/^void puthex(unsigned char c)$/;"	f
+regtype	main.c	/^typedef volatile unsigned int regtype;$/;"	t	file:
+reset	start.S	/^reset:$/;"	l
+sdram_init	main.c	/^void sdram_init(void)$/;"	f
+software_interrupt	start.S	/^software_interrupt:$/;"	l
+spi_gpio_init	spi_flash.c	/^void spi_gpio_init(void)$/;"	f
+spi_rdwr_byte	spi_flash.c	/^static unsigned char spi_rdwr_byte(int read, unsigned char byte)$/;"	f	file:
+spi_send_address	spi_flash.c	/^static void spi_send_address(unsigned int addr)$/;"	f	file:
+uart_init	uart.c	/^void uart_init(void)$/;"	f
+undefined_instruction	start.S	/^undefined_instruction:$/;"	l
